@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>Zamów wycenę</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="sticky">
+  <div class="container nav">
+    <b>OGRODZENIA PRO+</b>
+    <div>
+      <a href="index.html">Start</a>
+      <a href="oferta.html">Oferta</a>
+      <a href="kontakt.html">Kontakt</a>
+    </div>
+  </div>
+</nav>
+
+<section class="container">
+  <h1>Zamów wycenę</h1>
+
+  <form action="https://formspree.io/f/yourID" method="POST" class="form">
+    
+    <input type="text" name="name" placeholder="Imię / Firma" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <input type="text" name="phone" placeholder="Telefon">
+
+    <select name="typ">
+      <option>Panele ogrodzeniowe</option>
+      <option>Kompletny system</option>
+      <option>Hurt / współpraca</option>
+    </select>
+
+    <textarea name="message" placeholder="Opisz czego potrzebujesz"></textarea>
+
+    <button type="submit" class="btn big">Wyślij zapytanie</button>
+  </form>
+
+</section>
+
+<footer>
+  © 2026 Ogrodzenia PRO+
+</footer>
+
+</body>
+</html>

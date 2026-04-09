@@ -1,0 +1,18 @@
+.form {
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+  max-width:500px;
+}
+
+.form input,
+.form textarea,
+.form select {
+  padding:12px;
+  border-radius:6px;
+  border:none;
+}
+
+.form textarea {
+  height:120px;
+}
